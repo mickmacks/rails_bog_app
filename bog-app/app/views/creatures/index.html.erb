@@ -1,0 +1,9 @@
+<% @creatures.each do |creature| %>
+  <p>
+    <strong>Name:</strong> <%= creature.name %><br>
+    <strong>Description:</strong> <%= creature.description %><br>
+    <strong>Age:</strong> <%= creature.age %>
+  </p>
+<% end %>
+
+<%= link_to "Add New Creature", new_creature_path, class: "btn btn-danger" %>
