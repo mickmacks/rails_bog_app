@@ -1146,3 +1146,14 @@ At this point, you've created all the RESTful routes, implemented controller act
 ## CONGRATULATIONS! You have created a Bog App! Take a break, you look *Swamped*!
 
 ![](https://cloud.githubusercontent.com/assets/7833470/11501240/83536030-97e7-11e5-8060-fa7666de7165.jpeg)
+
+## Reflections
+
+Repeating the process was definitely a great way to familiarize myself with more Ruby and Rails terminology. At first I felt like I was copying almost all of the hint code because I wasn't familiar enough yet to "think in Ruby" (in particular, for the controller methods and HTML forms). It also helped me realize that each time I made an app in Rails, I was just working in the same 4 or 5 folders, and could just ignore all the other ones that seemed overwhelming at the beginning.
+
+Tip: When working with bootstrap (or other gem installs), resetting the rails server is definitely a big help. I noticed that sometimes I followed the exact steps from a previous run but bootstrap wouldn't load. It turned out all I needed to do was re-run the server. So, in short, when in doubt, restart `rails server` or `rails s`
+
+Times: Unforunately I did not actually time myself, but if I had to guess I'd say:
+First run: 3 hours
+Second run: 2 hours
+Third run: 1.5 hours
